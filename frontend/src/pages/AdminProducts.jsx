@@ -5,7 +5,7 @@ function AdminProducts() {
   const [products, setProducts] = useState([]);
   const [name, setName] = useState("");
   const [price, setPrice] = useState("");
-  const [image, setImage] = useState("");
+  //const [image, setImage] = useState("");
 
   useEffect(() => {
     loadProducts();
